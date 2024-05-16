@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-test
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: sandbox
+      auto-index-creation: true
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        web: info
